@@ -1,0 +1,51 @@
+/*
+TODO: Navbar, Title, Profile Icon, Main Page.
+*/
+
+body {
+  background: #374963;
+}
+
+/* & Navbar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  background: #F7554D;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* & Main Section */
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+  height: 60vh;
+  background: #d3e1f5;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.titleText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #31353b;
+}
